@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*
+Headings: Poppins
+Body: Open Sans */
+
+/* Mobile size: 375px, Desktop size: 1440px */
+
+/* font weights: 400, 600, 700 */
+
+:root{
+    /* Primary */
+    --var-pink:  hsl(322, 100%, 66%);
+    --var-lightPink: hsl(321, 100%, 78%);
+    --var-red: hsl(0, 100%, 63%);
+    /* Neutral */
+    --var-DarkCyan: hsl(192, 100%, 9%);
+    --var-paleBlue: hsl(207, 100%, 98%);
+}
+
+
+
+
+
