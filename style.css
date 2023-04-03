@@ -18,6 +18,43 @@ Body: Open Sans */
     --var-paleBlue: hsl(207, 100%, 98%);
 }
 
+body{
+    margin: 2rem;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header {
+    padding-bottom: 10rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 1.4em;
+}
+
+.nav-btn {
+    padding: 7px 25px;
+    font-size: 0.75em;
+    border-radius: 20px;
+    border: 1px solid var(--var-pink);
+    background: none;
+    cursor: pointer;
+    color: var(--var-pink);
+}
+
+
+
+
+
+
+
 
 
 
