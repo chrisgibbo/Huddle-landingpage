@@ -23,10 +23,11 @@ body{
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    font-family: "Open Sans";
 }
 
 .header {
-    padding-bottom: 10rem;
+    padding-bottom: 9rem;
 }
 
 .navbar {
@@ -48,6 +49,41 @@ body{
     cursor: pointer;
     color: var(--var-pink);
 }
+
+.nav-btn:hover{
+    background-color: var(--var-pink);
+    color: white;
+    transition: 0.5s;
+}
+
+.section {
+    padding: 0 1.8em 6.5em 1.8em;
+
+}
+
+.heading{
+    font-family: "Poppins";
+    padding-bottom: 0.5em;
+}
+
+.bodytext{
+    font-size: 16px;
+    padding: 0 2.5em 2em 2.5em;
+}
+
+.cta-btn {
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: none;
+    background: var(--var-pink);
+    color: white;
+    cursor: pointer;
+}
+
+.cta-btn:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 
 
 
