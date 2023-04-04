@@ -84,6 +84,38 @@ body{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.section1{
+    height: 350px;
+}
+
+.main-img {
+    height: 80%;
+}
+
+.stat-img1,
+.stat-img2 {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    margin-bottom: -60px;
+}
+
+.stat-img1{
+    margin-right: 130px;
+}
+
+.stat-img2{
+    margin-right: 150px;
+}
+
+.stats-number {
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+
+
+
 
 
 
