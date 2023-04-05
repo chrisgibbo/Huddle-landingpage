@@ -19,7 +19,7 @@ Body: Open Sans */
 }
 
 body{
-    margin: 2rem;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
@@ -28,6 +28,7 @@ body{
 
 .header {
     padding-bottom: 9rem;
+    margin: 1.5rem;
 }
 
 .navbar {
@@ -56,14 +57,15 @@ body{
     transition: 0.5s;
 }
 
-.section {
-    padding: 0 1.8em 6.5em 1.8em;
+.section,
+.cta {
+    padding: 0 1em 6.5em 1em;
 
 }
 
 .heading{
     font-family: "Poppins";
-    padding-bottom: 0.5em;
+    padding: 0 3em 1em 3em;
 }
 
 .bodytext{
@@ -86,6 +88,10 @@ body{
 
 .section1{
     height: 350px;
+}
+
+.section{
+    margin: 0 2rem 0 2rem;
 }
 
 .main-img {
@@ -113,7 +119,45 @@ body{
     margin-bottom: 0;
 }
 
+.section-img{
+    margin: 10em 0 3em 0;
+    width: 50vw;
+}
+.heading{
+    font-size: 1.5em;
+    margin-bottom: -10px;
+}
 
+.cta-heading{
+    font-family: "Poppins";
+    padding: 0 2em 0.5em 2em;
+}
+
+.cta{
+    margin-bottom: 150px;
+}
+
+.subscription-section {
+text-align: left;
+background-color: var(--var-DarkCyan);
+
+}
+
+.newsletter-section {
+    padding: 2rem;
+}
+
+.newsletter-heading {
+    text-transform: uppercase;
+    color: white;
+}
+
+.newsletter-bodytext {
+    color: white;
+    font-family: "Open Sans";
+    padding-right: 5em;
+    line-height: 25px
+}
 
 
 
