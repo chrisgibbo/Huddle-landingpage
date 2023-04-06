@@ -196,8 +196,21 @@ margin-bottom: 5em;
 }
 
 .logo-bottom{
-    color: white;
+    margin-bottom: 1em;
 }
+
+.footer-text {
+    padding-right: 5em;
+}
+
+.social-icons{
+    margin: 2em 0 1em 0;
+    display: flex;
+    gap: 15px;
+    height: 1.5em;
+}
+
+
 
 
 
