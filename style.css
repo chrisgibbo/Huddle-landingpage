@@ -29,12 +29,14 @@ body{
 .header {
     padding-bottom: 9rem;
     margin: 1.5rem;
+    
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo {
@@ -57,18 +59,20 @@ body{
     transition: 0.5s;
 }
 
-.section,
+.main-section,
 .cta {
     padding: 0 1em 6.5em 1em;
 
 }
 
-.heading{
+.heading,
+.section-heading{
     font-family: "Poppins";
     padding: 0 3em 1em 3em;
 }
 
-.bodytext{
+.bodytext,
+.section-bodytext{
     font-size: 16px;
     padding: 0 2.5em 2em 2.5em;
 }
@@ -88,6 +92,11 @@ body{
 
 .section1{
     height: 350px;
+}
+
+.main-section{
+    margin: 0 2rem 0 2rem;
+
 }
 
 .section{
@@ -123,6 +132,7 @@ body{
     margin: 10em 0 3em 0;
     width: 50vw;
 }
+
 .heading{
     font-size: 1.5em;
     margin-bottom: -10px;
@@ -233,6 +243,84 @@ margin-bottom: 5em;
     gap: 10px;
 }
 
+@media only screen and (min-width: 600px) {
+    .logo {
+        height: 2em;
+    }
+
+    .heading{
+        font-size: 2.5em;
+    }
+    
+    .bodytext{
+        font-size: 1.4em;
+        width: 650px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .cta-btn {
+        width: 350px;
+        height: 65px;
+        font-size: 1em;
+    }
+
+    .section1{
+        height: 70%;
+    }
+
+    .main-img {
+        width: 70%;
+    }
+
+    .stats-section{
+        padding-top: 3em;
+        margin-bottom: 15em;
+        display: flex;
+        justify-content: center;
+        gap: 25%;
+    }
+
+    .section{
+        display: flex;    
+        align-items: center;   
+        justify-content: center; 
+        margin: 5em 5em 15em 5em;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .section-img{
+        width: 30vw;
+        place-items: left;
+        margin: 0 5em 0 0;
+        padding: 0;
+    }
+
+    .section-heading{
+        font-size: 1.8em;
+        text-align: left;
+        padding-left: 40px;
+        padding-bottom: 0;
+
+    }
+
+    .section-bodytext{
+        text-align: left;
+    }
+
+    .section-div{
+        width: 600px;
+    }
+
+    #first-section,
+    #section-section{
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+
+}
 
 
 
