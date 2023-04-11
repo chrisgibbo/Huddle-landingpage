@@ -153,6 +153,11 @@ margin-bottom: 5em;
     color: white;
 }
 
+.testing-img {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
 .newsletter-bodytext {
     color: white;
     font-family: "Open Sans";
