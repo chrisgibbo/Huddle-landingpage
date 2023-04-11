@@ -210,6 +210,17 @@ margin-bottom: 5em;
     height: 1.5em;
 }
 
+.social-icon {
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: #be05a23d;
+    margin: -5px;
+    box-shadow: hsla(309, 95%, 38%, 0.584) 0px 7px 29px 0px;
+}
 
 
 
