@@ -103,6 +103,10 @@ body{
     margin: 0 2rem 0 2rem;
 }
 
+.testing-sections{
+    background-color: var(--var-paleBlue);
+}
+
 .main-img {
     height: 80%;
 }
@@ -131,6 +135,16 @@ body{
 .section-img{
     margin: 10em 0 3em 0;
     width: 50vw;
+}
+
+.section-top-img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.section-bottom-img {
+    margin-top: -100px;
+    width: 100%;
 }
 
 .heading{
@@ -285,7 +299,7 @@ margin-bottom: 5em;
         display: flex;    
         align-items: center;   
         justify-content: center; 
-        margin: 5em 5em 15em 5em;
+        margin: 5em 5em 5em 5em;
         overflow: hidden;
         padding: 0;
     }
@@ -317,8 +331,17 @@ margin-bottom: 5em;
     #section-section{
         display: flex;
         flex-direction: row-reverse;
-        
     }
+
+    .section-top-img{
+    width: 100%;
+    margin-bottom: -100px;
+}
+
+    .section-bottom-img {
+     width: 100%;
+     display: block;
+}
 
 }
 
