@@ -65,6 +65,7 @@ body{
 
 }
 
+
 .heading,
 .section-heading{
     font-family: "Poppins";
@@ -275,6 +276,8 @@ margin-bottom: 5em;
     
     .bodytext{
         font-size: 1.4em;
+        width: 650px;
+        margin: auto;
         text-align: center;
     }
     
@@ -282,6 +285,7 @@ margin-bottom: 5em;
         width: 350px;
         height: 65px;
         font-size: 1em;
+        font-weight: bolder;
     }
 
     .section1{
@@ -290,6 +294,7 @@ margin-bottom: 5em;
 
     .main-img {
         width: 70%;
+        padding-top: 80px;
     }
 
     .stats-section{
