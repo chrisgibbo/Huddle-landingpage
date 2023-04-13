@@ -370,25 +370,20 @@ background-color: var(--var-DarkCyan);
         width: 100%;
         display: block;
     }
-    
-    .subscription-section {
-        border-radius: 40px;
-    }
 
     .footer{
         margin: 0;
         padding: 0;
     }
 
-    .footer-text{
-        padding-right: 200px;
-    }
-
-    .form-section{
+      .form-section{
         display: flex;
         flex-direction: row;
         gap: 30px;
-        width: 100%;
+    }
+
+    .footer-text {
+        padding-right: 10em;
     }
 
     .input {
@@ -413,6 +408,13 @@ background-color: var(--var-DarkCyan);
 
     .social-icons{
         gap: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+    .footer-text {
+        padding-right: 20em;
     }
 
 }
