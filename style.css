@@ -235,8 +235,7 @@ background-color: var(--var-DarkCyan);
 }
 
 .footer-text {
-    padding-right: 5em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .logo-bottom{
@@ -249,7 +248,7 @@ background-color: var(--var-DarkCyan);
 }
 
 .social-icons{
-    margin: 2em 0 1em 0;
+    margin: 2em 0 2em 0;
     display: flex;
     gap: 15px;
     height: 1.5em;
@@ -261,8 +260,11 @@ background-color: var(--var-DarkCyan);
 
 #copyright {
     font-size: 0.8em;
-    margin: 5em 0 0 0;
     text-align: center;
+    background-color: var(--var-DarkCyan);
+    color: white;
+    margin: 0;
+    padding: 0 0 2em 0;
 }
 
 
@@ -291,6 +293,10 @@ background-color: var(--var-DarkCyan);
         width: 650px;
         margin: auto;
         text-align: center;
+    }
+
+    .cta{
+        margin: 5em 0 5em 0;
     }
     
     .cta-btn {
@@ -369,6 +375,11 @@ background-color: var(--var-DarkCyan);
         border-radius: 40px;
     }
 
+    .footer{
+        margin: 0;
+        padding: 0;
+    }
+
     .footer-text{
         padding-right: 200px;
     }
@@ -392,6 +403,7 @@ background-color: var(--var-DarkCyan);
         justify-content: space-around;
         flex-direction: row-reverse;
         background-color: var(--var-DarkCyan);
+        padding: 0 8em 0 8em;
     }
 
     .phone-icon {
