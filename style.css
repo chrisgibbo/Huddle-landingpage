@@ -240,7 +240,7 @@ background-color: var(--var-DarkCyan);
 }
 
 .logo-bottom{
-    margin-bottom: 1em;
+    margin: 2em 0 1em 0;
 }
 
 .phone-icon {
@@ -256,8 +256,13 @@ background-color: var(--var-DarkCyan);
 }
 
 .social-icon {
-    cursor: pointer;
-    
+    cursor: pointer;    
+}
+
+#copyright {
+    font-size: 0.8em;
+    margin: 5em 0 0 0;
+    text-align: center;
 }
 
 
