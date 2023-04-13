@@ -229,6 +229,9 @@ background-color: var(--var-DarkCyan);
 .footer {
     text-align: left;
     background-color: var(--var-DarkCyan);
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
 }
 
 .footer-text {
